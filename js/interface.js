@@ -3225,8 +3225,8 @@ $('.browse-files').on('click', function (e) {
 });
 
 // Scroll accordion tab to the top
-$(document).ready(function(){
-  $('.panel-collapse').on('shown.bs.collapse', function(e) {
+$(document).ready(function (){
+  $('.panel-collapse').on('shown.bs.collapse', function () {
     var $panel = $(this).closest('.panel');
     $('html,body').animate({
       scrollTop: $panel.offset().top
